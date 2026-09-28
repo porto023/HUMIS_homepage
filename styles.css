@@ -5,9 +5,15 @@ body {
     
     div.container {
         width: 780px;
-        border: 5px solid red;
+        /* border: 5px solid red; */
         margin: 0 auto;
         background-color: white;
+
+        header {
+            img {
+                display: block;
+            }
+        }
     
         section.middle {
             padding: 10px;
@@ -115,6 +121,7 @@ body {
 
                         span {
                             font-weight: bold;
+                            font-size: 115%;
                         }
                         
                         &.link {
