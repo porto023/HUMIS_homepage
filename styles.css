@@ -112,6 +112,10 @@ body {
 
                     p {
                         font-size: 12px;
+
+                        span {
+                            font-weight: bold;
+                        }
                         
                         &.link {
                             text-align: right;
